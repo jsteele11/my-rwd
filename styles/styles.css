@@ -9,6 +9,9 @@ Normalize1.css -- Global styles sheet for the My RWD website
 *
 */
 /* -----Basic Styling -----*/
+footer {
+  clear: both;
+}
 
 body{
   background-color: lightblue;
@@ -40,4 +43,26 @@ nav ul {
   padding: 3px 10px 3px 10px ;
   list-style-type: none;
 }
+
+
+/* -----Left-Sided Nav Menu -----*/
+
+nav {
+  float: left;
+  width: 175px;
+  -webkit-box-sizing: border-box ;
+  -moz-box-sizing: border-box ;
+  box-sizing: border-box ;
+}
+
+#content {
+  float: left;
+  width: 593px;
+  -webkit-box-sizing: border-box ;
+  -moz-box-sizing: border-box ;
+  box-sizing: border-box ;
+}
+
+
+
 
